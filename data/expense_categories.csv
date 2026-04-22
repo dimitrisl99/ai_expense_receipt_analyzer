@@ -1,0 +1,121 @@
+vendor,text,category
+Starbucks,coffee latte cappuccino espresso drink beverage,food
+Coffee Island,coffee sandwich snack espresso beverage,food
+Everest,sandwich coffee bakery snack food,food
+McDonalds,burger fries cola fast food meal,food
+Burger King,burger fries soda meal fast food,food
+KFC,chicken meal fries fast food restaurant,food
+Pizza Hut,pizza cheese pepperoni meal food,food
+Dominos,pizza delivery cheese food meal,food
+Goody's,burger club sandwich fries meal,food
+Gregory's,coffee snack bakery sandwich food,food
+Mikel,coffee beverage espresso cappuccino drink,food
+Costa Coffee,coffee latte drink espresso beverage,food
+Dunkin,donut coffee sweet snack beverage,food
+Subway,sandwich meal lunch food snack,food
+TGI Fridays,restaurant dinner food burger drink,food
+Panera Bread,bread sandwich soup bakery food,food
+Cinnabon,cinnamon roll dessert sweet bakery,food
+Souvlaki House,souvlaki gyro food meal grill,food
+Local Bakery,bread pastry bakery dessert food,food
+Supermarket Cafe,coffee snack bakery supermarket food,food
+Shell,fuel petrol diesel gas transport station,transport
+BP,petrol diesel gas fuel transport station,transport
+Uber,taxi ride trip transport driver fare,transport
+Bolt,taxi ride transport trip fare driver,transport
+Taxi,ride trip taxi transport fare,transport
+Metro,ticket station train underground transport,transport
+Trainline,train ticket rail transport trip,transport
+OASA,bus ticket public transport commute,transport
+KTEL,bus travel transport ticket station,transport
+Hellenic Train,rail train ticket transport travel,transport
+Aegean Airlines,flight airline ticket airport travel,transport
+Ryanair,flight ticket airline airport transport,transport
+EasyJet,flight airline travel airport ticket,transport
+Parking Station,parking car transport fee station,transport
+EKO,fuel petrol diesel transport station,transport
+AVIN,petrol diesel gas station transport,transport
+Cyclon,fuel diesel petrol gas station,transport
+Bus Ticket,bus ticket commute transport station,transport
+Ferry Tickets,ferry boat ticket port travel,transport
+Car Rental,car hire rental transport vehicle,transport
+Zara,clothes fashion shopping apparel store,shopping
+H&M,clothes fashion apparel shopping store,shopping
+Public,books electronics shopping store retail,shopping
+Media Markt,electronics appliances retail shopping tech,shopping
+Amazon,online shopping retail order marketplace,shopping
+IKEA,furniture home shopping retail decor,shopping
+Leroy Merlin,home improvement furniture tools shopping,shopping
+Pull and Bear,clothing fashion apparel shopping,shopping
+Bershka,clothes fashion apparel shopping retail,shopping
+Stradivarius,fashion clothes apparel shopping store,shopping
+Massimo Dutti,fashion premium clothes shopping apparel,shopping
+eBay,online marketplace shopping retail products,shopping
+Skroutz,online shopping electronics retail order,shopping
+Plaisio,electronics office tech shopping retail,shopping
+Kotsovolos,electronics appliances shopping retail,shopping
+Jumbo,toys home products shopping retail,shopping
+Notos,department store shopping fashion beauty,shopping
+Sephora,beauty cosmetics makeup shopping retail,shopping
+Hondos Center,beauty cosmetics perfume shopping,shopping
+Cosmos Sport,sportswear shoes retail shopping,shopping
+DEI,electricity utility power bill payment,utilities
+EYDAP,water utility bill payment services,utilities
+Vodafone,mobile internet telecom bill utilities,utilities
+Cosmote,telecom mobile internet bill utilities,utilities
+Nova,internet tv telecom utilities bill,utilities
+Internet Provider,internet broadband utility telecom bill,utilities
+Natural Gas,gas bill utility heating payment,utilities
+Municipality Bill,municipal services utility bill payment,utilities
+Electricity Bill,power energy utility bill payment,utilities
+Water Bill,water services utility payment bill,utilities
+Mobile Bill,mobile phone telecom utility payment,utilities
+Fixed Line,telephone telecom utility bill services,utilities
+Fiber Internet,broadband internet telecom utility bill,utilities
+Waste Collection,municipal waste utility service bill,utilities
+Utility Services,bill payment utility electricity water,utilities
+Power Company,energy electricity utility bill service,utilities
+Telecom Provider,mobile internet telecom utility service,utilities
+Gas Company,gas heating utility bill service,utilities
+Heating Bill,heating gas utility payment bill,utilities
+Shared Utilities,building utility shared bill payment,utilities
+Pharmacy,medicine prescription vitamins health pharmacy,healthcare
+CVS,pharmacy medicine prescription health products,healthcare
+Hospital,doctor treatment health medical care,healthcare
+Clinic,medical appointment treatment doctor care,healthcare
+Dentist,dental teeth treatment medical care,healthcare
+Medical Center,health medical doctor treatment clinic,healthcare
+Diagnostic Lab,blood test medical diagnostics health,healthcare
+Physiotherapy,therapy rehabilitation treatment health care,healthcare
+Eye Clinic,vision doctor eye treatment health,healthcare
+Health Store,supplements vitamins wellness health products,healthcare
+Pediatrician,doctor child health medical appointment,healthcare
+Orthopedic Clinic,bones treatment doctor medical health,healthcare
+Dental Care,teeth dentist clinic treatment health,healthcare
+Medical Shop,medicine health products pharmacy care,healthcare
+General Hospital,medical care emergency doctor treatment,healthcare
+Private Clinic,doctor treatment appointment health,healthcare
+Pharma Plus,pharmacy medicine vitamins health,healthcare
+MediCare,healthcare medical treatment doctor clinic,healthcare
+Health Hub,health medical wellness clinic services,healthcare
+Prescription Store,medicine prescription pharmacy health,healthcare
+Unknown,general purchase unknown receipt store,other
+Generic Store,generic retail purchase items store,other
+Supermarket,grocery food household products market,other
+Mini Market,grocery snacks drinks convenience store,other
+Kiosk,snacks drinks tobacco magazines convenience,other
+Corner Shop,small store groceries convenience products,other
+Convenience Store,snacks drinks grocery quick purchase,other
+Local Market,groceries produce daily products market,other
+Bookstore,books stationery retail general store,other
+Pet Store,pet food accessories animal products,other
+Gift Shop,gifts souvenirs products retail store,other
+Toy Store,toys games children products store,other
+Florist,flowers bouquet gift shop store,other
+Stationery Store,pens paper office school supplies,other
+Repair Shop,repair service tools maintenance store,other
+Laundry,cleaning laundry clothes service,other
+Dry Cleaners,clothes cleaning service laundry,other
+Copy Center,printing copies paper service documents,other
+Thrift Store,used clothes items retail store,other
+General Services,miscellaneous payment services receipt,other

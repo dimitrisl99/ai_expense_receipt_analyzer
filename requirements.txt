@@ -1,0 +1,13 @@
+# pip install -r requirements.txt
+#pip --> το εργαλείο που εγκαθιστά python packages
+#install --> κάνε εγκατάσταση
+# -r requirements.txt --> διάβασε τι χρειάζεται απο το αρχείο requirements.txt
+
+streamlit
+easyocr #βασική βιβλιοθήκη OCR
+Pillow #βιβλιοθήκη για εικόνες στην Python
+numpy #Πολύ βασική βιβλιοθήκη για arrays και image handling. Την χρειάζονται πολλές άλλες βιβλιοθήκες
+scikit-learn #η βασική βιβλιοθήκη ML που θα χρησιμοποιήσουμε
+pandas #για να διαβάζουμε και να χειριζόμαστε tables / csv
+joblib #για να αποθηκεύσουμε το εκπαιδευμένο μοντέλο σε αρχείο
+
