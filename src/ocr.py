@@ -1,6 +1,6 @@
-import easyocr #φέρνουμε την βιβλιοθήκη OCR
-import numpy as np #ρησιμοποιούμε τη NumPy για να μετατρέψουμε την εικόνα σε μορφή που μπορεί να διαβάσει το OCR
-from PIL import Image #η Pillow μάς βοηθά να ανοίξουμε την εικόνα
+import easyocr
+import numpy as np
+from PIL import Image
 
 
 def extract_text_from_image(uploaded_file):
@@ -9,17 +9,13 @@ def extract_text_from_image(uploaded_file):
     runs OCR on it, and returns the extracted text.
     """
 
-    image = Image.open(uploaded_file) #ανοίγουμε το αρχείο της εικόνας
-    image_array = np.array(image) #μετατρέπουμε την εικόνα σε array
+    image = Image.open(uploaded_file)
+    image_array = np.array(image)
 
-    #εδώ δημιουργούμε τον OCR reader
-    reader = easyocr.Reader(["en"], gpu=False) #το en σημαίνει οτι ο reader θα διαβάζει αγγλικά
-    #και του λέμε να τρέξει σε cpu
-    results = reader.readtext(image_array, detail=0) #το EasyOCR κοιτάζει την εικόνα και επιστρέφει τα
-    #κομμάτια κειμένου που βρήκε , το detail = 0 --> θέλουμε το κείμενο οχι πολλές τεχνικές λεπτομέριες
+    reader = easyocr.Reader(["en"], gpu=False)
+    results = reader.readtext(image_array, detail=0)
 
-    extracted_text = "\n".join(results) #το result είναι λίστα απο μικρά κομμάτια κειμένου
-    #εδώ τα ενώνουμε με αλλαγή γραμμής ανάμεσα
+    extracted_text = "\n".join(results)
 
-    return extracted_text #επιστρέφει η συνάρτηση του τελικό text
+    return extracted_text
 

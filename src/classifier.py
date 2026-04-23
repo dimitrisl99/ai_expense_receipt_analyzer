@@ -3,14 +3,13 @@ import os
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 model_path = os.path.join(base_dir, "data", "expense_classifier.pkl")
-# φορτώνουμε το μοντέλο μία φορά
 model = joblib.load(model_path)
 
-#θα επιστρέφει category + confidence
+
 def predict_category_with_confidence(vendor, extracted_text):
-    """
-    Predicts expense category and returns confidence score.
-    """
+
+    # Predicts expense category and returns confidence score.
+
     vendor = vendor or ""
     extracted_text = extracted_text or ""
 

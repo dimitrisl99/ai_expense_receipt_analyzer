@@ -2,9 +2,9 @@ import joblib
 
 
 def test_classifier():
-    model = joblib.load("data/expense_classifier.pkl") #φορτώνει το αποθηκευμένο μοντέλο απο το αρχείο .pkl
+    model = joblib.load("data/expense_classifier.pkl")
 
-    test_vendors = [ #Λίστα με παραδείγματα που θέλουμε να δοκιμαστούν
+    test_vendors = [
         "Starbucks",
         "Shell",
         "Zara",
@@ -22,7 +22,7 @@ def test_classifier():
     print("Expense Category Predictions:\n")
 
     for vendor in test_vendors:
-        prediction = model.predict([vendor])[0] #για αυτό το vendor πες μου κατηγορία
+        prediction = model.predict([vendor])[0]
         print(f"{vendor} --> {prediction}")
 
 
